@@ -1,0 +1,36 @@
+{
+  "name": "project-0-marven250",
+  "version": "1.0.0",
+  "description": "Rev0",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon --exec ts-node src/index.ts",
+    "deploy": "ts-node src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/revature-react-5-4-20-classroom/project-0-marven250.git"
+  },
+  "author": "Marven M",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/revature-react-5-4-20-classroom/project-0-marven250/issues"
+  },
+  "homepage": "https://github.com/revature-react-5-4-20-classroom/project-0-marven250#readme",
+  "devDependencies": {
+    "@types/express-session": "^1.17.0",
+    "@types/pg": "^7.14.3",
+    "nodemon": "^2.0.3",
+    "ts-node": "^8.10.1",
+    "typescript": "^3.9.2"
+  },
+  "dependencies": {
+    "@types/express": "^4.17.6",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "moment": "^2.25.3",
+    "pg": "^8.2.1"
+  }
+}
